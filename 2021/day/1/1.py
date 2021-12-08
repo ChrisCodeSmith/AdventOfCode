@@ -2,7 +2,7 @@
 # but gets updated at the end of every iteration with its measurement.
 # So after the first iteration it always contains the measurement of the previous iteration.
 #
-# We count each time the actual measurement is greater than the one before.
+# The counter increases everytime the actual measurement is greater than the one before.
 
 
 with open('input.txt', 'r') as f:
